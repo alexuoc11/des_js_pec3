@@ -1,0 +1,3 @@
+Como primera ventaja, y la más importante, podremos adjudicar a las variables un tipo. Entre todos los tipos tenemos: string, number, boolean, null, undefined, any, never, void,... Esto nos permite llevar mejor un control de cada elemento.
+Debido a que tendremos tipos de variable, nuestro codigo se entendera mucho más facilmente. De tal manera, si otro programador tiene que utilizar nuestro codigo tardara menos tiempo en entenderlo.
+Como necesitaremos compilar nuestro codigo y tenemos la posibilidad de usar el modo estricto, por lo tanto tendremos la obligación de tener un codigo más limpio. Otra ventaja relacionada, es que al tener que compilar antes de ver el resultado veremos los errores antes y nos funcionará como 'filtro'.

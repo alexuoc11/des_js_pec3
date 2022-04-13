@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    //Cuando compilemos nuestro fichero ts, usara como referencia es2015
+    "target": "es2015", 
+    //Significa que los archivos compilados .js usaran la sintaxis de commonjs
+    "module": "commonjs", 
+    //Todos los archivos js que saldrán de la ejecución acabarán en el directorio /dist
+    "outDir": "./dist",   
+    //Los archivos mantendrán la misma estructura que en la carpeta /src
+    "rootDir": "./src", 
+    //Esto nos ayudará a tener un codigo más correcto, ya que lo transformará siguiendo unas normas más estrictas
+    "strict": true,
+    //Guardamos en un fichero dentro del disco local información de las anteriores compilaciones
+    "incremental": true,
+    //Especificamos un fichero para guardar la información anterior.
+    "tsBuildInfoFile": "./buildcache",
+  }
+}
